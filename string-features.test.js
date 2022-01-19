@@ -1,4 +1,4 @@
-const [stringLength, stringReverse, stringCapitalize] = require('./string-features.js');
+const [stringLength, stringReverse, stringCapitalize] = require('./string-features');
 
 it('strings length', () => {
   expect(stringLength('gabrielasa')).toBe(10);
